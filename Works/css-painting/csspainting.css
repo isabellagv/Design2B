@@ -1,0 +1,187 @@
+html{
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #efefef;
+        height: 100%;
+        background: #efefef;
+    color: hsl(240, 30, 10);
+    font: 700 14px/1 sans-serif;
+    letter-spacing: 0.125em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.painting{
+    margin: 20px;
+    display: inline-block;
+
+}
+
+
+h1 {
+    margin: 3em 0 2em;
+    padding: inherit;
+    font-size: 100px;
+}
+
+.btn {
+    background: none;
+    border: 2px solid;
+    border-bottom-width: 4px;
+    font: inherit;
+    letter-spacing: inherit;
+    margin: 1em;
+    padding: 1em 2em;
+    text-transform: inherit;
+    transition: color 1s;
+}
+
+.btn-1 {
+    $color: #9c89f7;
+    color: $color;
+}
+
+.btn-1:hover {
+    animation: halftone 1s forwards;
+    background: radial-gradient(circle, $red, 0.2em, transparent 0.25em) 0 0 / 1.25em 1.25em, radial-gradient(circle, $color 0.2em, transparent 0.25em) 6.25em 6.25em / 1.25em 1.25em;
+    color: adjust-hue (palevioletred,180);
+}
+
+.space{
+    width:100px;
+    height:50px;
+    background-color: #efefef;
+}
+
+
+    /*colors*/
+
+.green{
+    width: 100px;
+    height: 50px;
+    background-color: #008066;  
+}
+
+.blue{
+    width: 100px;
+    height: 50px;
+    background-color: #19334d
+}
+
+.pink{
+    width: 300px;
+    height: 40px;
+    background-color: #ff9999
+}
+
+.orange{
+    width: 300px;
+    height: 50px;
+    background-color: #cc5200;
+}
+
+.mustard{
+    width: 300px;
+    height: 43.2px;
+    background-color: #ffad33
+}
+
+.mustardTwo{
+    width: 300px;
+    height: 60px;
+    background-color: #ffad33
+}
+
+.red{
+    width: 300px;
+    height: 65px;
+    background-color: #b32400;
+}
+
+.peach{
+    width: 100px;
+    height: 63.7px;
+    background-color: #ffaa80;
+}
+
+.blueTwo{
+    width: 100px;
+    height: 65px;
+    background-color: #003366;
+}
+
+    /*blocks*/
+
+.blockOne{
+    display: inline-block;
+    margin-left: -4px;
+    align-content: center;
+    transition: 1s;
+    background
+}
+
+.blockTwo{
+    display: inline-block;
+    margin-left: -4px;
+    align-content: center;
+}
+
+.blockThree{
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.blockFour{
+    display: inline-block;
+    margin-left: -4px;
+}
+
+    /*hover*/
+
+.green:hover{
+    background-color: purple;
+    transition: 1s;
+}
+
+.blue:hover{
+    background-color: hotpink;
+    transition: 1s;
+}
+
+.pink:hover{
+    background-color: rosybrown;
+    transition: 1s;
+}
+
+.orange:hover{
+    background-color: yellow;
+    transition: 1s;
+}
+
+.mustard:hover{
+    background-color: skyblue;
+    transition: 1s;
+}
+
+.red:hover{
+    background-color: floralwhite;
+    transition: 1s;
+}
+
+.mustardTwo:hover{
+    background-color: skyblue;
+    transition: 1s;
+}
+
+.peach:hover{
+    background-color: azure;
+    transition: 1s;
+}
+
+.blueTwo:hover{
+    background-color: olive;
+    transition: 1s;
+}

@@ -1,0 +1,87 @@
+body {
+    background-color: ;
+}
+
+h1 {
+    color: black;
+    font-size: 50pt;
+    margin: 3em 0 2em;
+    padding: inherit;
+    font-size: 100px;
+}
+
+h2 {
+    color: black;
+    font-size: 25pt;
+    text-align: left;
+}
+
+h3 {
+    color: black;
+    font-size: 25pt;
+    text-align: right;
+}
+
+@font-face {
+  font-family: Helvetica;
+}
+
+div {
+  font-family: Helvetica;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
+br {
+   display: block;
+   margin: 30px 0;
+}
+
+
+/*artrutgers2*/
+
+
+body {
+    heighst: 100%;
+    background: #efefef;
+    color: hsl(240, 30, 10);
+    font: 700 14px/1 Montserrat, sans-serif;
+    letter-spacing: 0.125em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.btn {
+    background: none;
+    border: 2px solid;
+    border-bottom-width: 4px;
+    font: inherit;
+    letter-spacing: inherit;
+    margin: 1em;
+    padding: 1em 2em;
+    text-transform: inherit;
+    transition: color 1s;
+}
+
+.btn-1 {
+    $color: #9c89f7;
+    color: $color;
+}
+
+.btn-1:hover {
+    animation: halftone 1s forwards;
+    background: radial-gradient(circle, $red, 0.2em, transparent 0.25em) 0 0 / 1.25em 1.25em, radial-gradient(circle, $color 0.2em, transparent 0.25em) 6.25em 6.25em / 1.25em 1.25em;
+    color: adjust-hue (palevioletred,180);
+}
+
+@keyframes halftone {
+    100% {
+        background-size: 2.375em 2.375em, 0.1em 0.1em;
+    }
+}

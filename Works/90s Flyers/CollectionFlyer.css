@@ -1,0 +1,138 @@
+body {
+    background-color: beige;
+    margin-top: 100px;
+    border: 50px;
+}
+
+.container {
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.rectangle {
+    position: relative;
+    width: 600px;
+    height: 1000px;
+    margin: auto;
+    z-index: -1;
+    background-color: #7a261b;
+}
+
+.main {
+    border: 50px;
+    width: 300px;
+    min-height: 10px;
+    margin: auto;
+    margin-top: -900px;
+    margin-left: 600px;
+    white-space: nowrap;
+    width: 100px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.textOne {
+    color: beige;
+    font-size: 20px;
+    letter-spacing: 6px;
+    font-weight: 100;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    min-height: 2px;
+    margin: auto;
+    margin-top: 100px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 60px;
+    color: #7a261b;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h2 {
+    text-align: left;
+    margin-left: -70px;
+    color: beige;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h3 {
+    text-align: right;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-left: 230px;
+    color: beige;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h4 {
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: px;
+    color: beige;
+    font-weight: 200;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h6 {
+    min-height: 100px;
+    margin: auto;
+    margin-top: 730px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 60px;
+    color: #7a261b;
+    /*    color: blue;*/
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1px;
+}
+
+.btn {
+    background: none;
+    text-align: center;
+    border: 2px solid;
+    border-bottom-width: 4px;
+    font: inherit;
+    letter-spacing: inherit;
+    margin: 1em;
+    padding: 1em 2em;
+    text-transform: inherit;
+    transition: color 1s;
+}
+
+.btn-1 {
+    $color: #9c89f7;
+    color: $color;
+
+    &:hover {
+        animation: halftone 1s forwards;
+        background: radial-gradient(circle, $red, 0.2em, transparent 0.25em) 0 0 / 1.25em 1.25em, radial-gradient(circle, $color 0.2em, transparent 0.25em) 6.25em 6.25em / 1.25em 1.25em;
+        color: adjust-hue($color, 180);
+    }
+}
+

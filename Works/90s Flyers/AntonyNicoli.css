@@ -1,0 +1,113 @@
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
+
+
+body {
+    margin: 50px;
+    border-left: 40px;
+    border-right: 40px;
+    padding: 50px;
+    height: 100%;
+    letter-spacing: 0.125px;
+    text-align: center;
+
+}
+
+.one {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    line-height: 1em;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: .3;
+    color: black;
+    font-size: 50pt;
+    margin: 1 0 5em;
+    padding: inherit;
+    font-size: 100px;
+}
+
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 6px;
+
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 11px;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 20px;
+    color: darkgray;
+}
+h5{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 40px;
+    letter-spacing: 63px;
+    text-align: center;
+      line-height: .02;
+}
+
+h6 {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 7px;
+        line-height: .03;
+    color: grey;
+}
+
+.blockOne{
+        width:100px;
+    height:100px;
+    background-color: white;
+}
+.underline{
+    align-content: center
+    width:1000px;
+    height:5px;
+    background-color: black;
+}
+
+.btn {
+    background: none;
+    border: 2px solid;
+    border-bottom-width: 4px;
+    font: inherit;
+    letter-spacing: inherit;
+    margin: 1em;
+    padding: 1em 2em;
+    text-transform: inherit;
+    transition: color 1s;
+}
+
+.btn-1 {
+    $color: #9c89f7;
+    color: $color;
+
+    &:hover {
+        animation: halftone 1s forwards;
+        background: radial-gradient(circle, $red, 0.2em, transparent 0.25em) 0 0 / 1.25em 1.25em, radial-gradient(circle, $color 0.2em, transparent 0.25em) 6.25em 6.25em / 1.25em 1.25em;
+        color: adjust-hue($color, 180);
+    }
+}
